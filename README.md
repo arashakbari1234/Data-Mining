@@ -16,3 +16,8 @@ Find out which feature is best candidate for data classification.
   ### Part 1 (MLP): 
   fetch teh data from lfw_people dataset. there are at least two pictures from each person. Use persons who have at least 150 pictures. After loading the data, consider 25% of them for test set.
   Use PCA for feature reduction and train the Multi-layer Perceptron to classify the data. Evaluate your model and represent the confusioan matrix. 
+  ### Part 2 (Clustering):
+  Three datasets are prepared for you. Load them and visualize each of them of a 2D scatter plot. Describle how clusers will be if we use Desity-Based Clustering. Specify the best number of clusters.
+  Use the Lloyd(k-means) algorithm and cluster the data. choose the K centers from x_1,...,x_n(dataset). Find the best K for each of the three datasets. Report the SSE error. Use elbow method to find the best K. 
+  Use fuzzy c-means algorithm and find the best K value. 
+  Use DBSCAN algorithm for the datasets and report the conlustion.
